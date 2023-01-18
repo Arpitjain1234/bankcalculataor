@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="SipStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+        <div id="outer">
+        <div id="sip"> <h3> SIP Calculator </h3> </div>
+        <div id="input">
+            Principal Amount to invest : <input type="number" id="amount"  ><br>
+            Expected Rate of return:    <input type="number" id="rateOfReturn"><br>
+            Duration : <input type="number" id="duration">
+                        <br>
+            <button id="calculate" onclick="displayAmount()">
+                Calculate 
+            </button>
+            <button id="reset" onclick="reset()">Reset</button>
+            <br>
+            Amount(recievable):  <input type="text" readonly id="amountfut"><br>
+            Net return(%) : <input type="text" readonly id="netret">
+
+        </div>
+    </div>
+<script src="sipScript.js">
+    
+        
+</script> 
+</body>
+</html>
